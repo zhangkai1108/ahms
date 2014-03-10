@@ -1,0 +1,85 @@
+= SSttrriinngg  <<  OObbjjeecctt
+
+(from gem activesupport-4.0.2)
+------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+String inflections define new methods on the String class to transform names
+for different purposes. For instance, you can figure out the name of a table
+from the name of a class.
+
+  'ScaleScore'.tableize # => "scale_scores"
+
+
+
+
+
+
+------------------------------------------------------------------------------
+= IInnssttaannccee  mmeetthhooddss::
+
+  acts_like_string?, at, blank?, camelcase, camelize, classify, constantize,
+  dasherize, deconstantize, demodulize, encoding_aware?, exclude?, first,
+  foreign_key, from, humanize, in_time_zone, indent, indent!, inquiry,
+  is_utf8?, last, mb_chars, parameterize, pluralize, safe_constantize,
+  singularize, squish, squish!, strip_heredoc, tableize, titlecase, titleize,
+  to, to_date, to_datetime, to_time, truncate, underscore
+
+(from gem builder-3.1.4)
+------------------------------------------------------------------------------
+  Permission is granted for use, copying, modification, distribution,
+  and distribution of modified versions of this work as long as the
+  above copyright notice is included.
+
+++
+
+Enhance the String class with a XML escaped character version of to_s.
+------------------------------------------------------------------------------
+= IInnssttaannccee  mmeetthhooddss::
+
+  _blankslate_as_name, to_xs
+
+(from gem i18n-0.6.9)
+------------------------------------------------------------------------------
+Extension for String class. This feature is included in Ruby 1.9 or later but
+not occur TypeError.
+
+String#% method which accept "named argument". The translator can know the
+meaning of the msgids using "named argument" instead of %s/%d style.
+------------------------------------------------------------------------------
+= CCoonnssttaannttss::
+
+INTERPOLATION_PATTERN:
+  [not documented]
+
+INTERPOLATION_PATTERN_WITH_ESCAPE:
+  [not documented]
+
+
+= IInnssttaannccee  mmeetthhooddss::
+
+  %, interpolate_without_ruby_19_syntax
+
+(from gem mail-2.5.4)
+------------------------------------------------------------------------------
+This is an almost cut and paste from ActiveSupport v3.0.6, copied in here so
+that Mail itself does not depend on ActiveSupport to avoid versioning
+conflicts
+
+------------------------------------------------------------------------------
+= IInnssttaannccee  mmeetthhooddss::
+
+  at, constantize, first, from, is_utf8?, last, mb_chars, to
+
+(from gem treetop-1.4.15)
+------------------------------------------------------------------------------
+= IInnssttaannccee  mmeetthhooddss::
+
+  blank?, column_of, line_of, tabto, treetop_camelize
+

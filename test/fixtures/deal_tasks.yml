@@ -1,0 +1,7 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dealDate: 2014-03-10
+
+two:
+  dealDate: 2014-03-10

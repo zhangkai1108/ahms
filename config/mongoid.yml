@@ -1,0 +1,46 @@
+development:
+    sessions:
+      default:
+        database: tw_development
+        username:  zhangkai
+        password:  abcd.1234
+        hosts:
+          - troup.mongohq.com:10048
+        options:
+          read: primary
+          # In the test environment we lower the retries and retry interval to
+          # low amounts for fast failures.
+          max_retries: 1
+          retry_interval: 0
+test:
+  sessions:
+    default:
+      database: tw_development
+      username:  zhangkai
+      password:  abcd.1234
+      hosts:
+        - troup.mongohq.com:10048
+      options:
+        read: primary
+        # In the test environment we lower the retries and retry interval to
+        # low amounts for fast failures.
+        max_retries: 1
+        retry_interval: 0
+
+production:
+  sessions:
+    default:
+      database: tw_development
+      # Provides the hosts the default session can connect to. Must be an array
+      # of host:port pairs. (required)
+      hosts:
+          - troup.mongohq.com:10048
+      username:  zhangkai
+      password:  abcd.1234
+      options:
+        read: primary
+        # In the test environment we lower the retries and retry interval to
+        # low amounts for fast failures.
+        max_retries: 1
+        retry_interval: 0
+ 
