@@ -2,6 +2,8 @@
 
 one:
   dealDate: 2014-03-10
+  dealType:白菜
 
 two:
   dealDate: 2014-03-10
+  dealType:萝卜

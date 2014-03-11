@@ -16,21 +16,21 @@ class TaskController < ApplicationController
   end
 
   def start
-    scheduler.every '3s' do
+    scheduler.every '3h' do
 
       begin
         @alreadyDeal = false
         @markets = Array.new
-        @dealTask = DealTask.where("dealType":name).first()
+        @dealTask = DealTask.find({"dealType"=>"name"}).order_by({"dealDate"=>-1}).first()
         # Get a Nokogiri::HTML::Document for the page we’re interested in...
         doc = Nokogiri::HTML(open('http://www.vegnet.com.cn/Price/List_p2_白菜.html'))
         # Do funky things with it using Nokogiri::XML::Node methods...
         ####
         # Search for nodes by css
         doc.css('.jxs_list .pri_k p').each do |link|
-          newdate = Date.strptime(link.css('span')[0].content, '[%d-%m-%Y]')
+          @newdate = Date.strptime(link.css('span')[0].content, '[%d-%m-%Y]')
           @market = Market.new
-          @market.currentDate = newdate
+          @market.currentDate = @newdate
           @market.name = link.css('span')[1].content
           @market.place = link.css('span')[2].css('a')[0].content
           @market.maxPrice= link.css('span')[3].content.gsub('￥', '').to_f
@@ -38,7 +38,7 @@ class TaskController < ApplicationController
           @market.avgPrice = link.css('span')[5].content.gsub('￥', '').to_f
           @market.unit = link.css('span')[6].content
           @markets = @markets+[@market]
-          if(newdate <= @dealTask.dealDate)
+          if(@newdate <= @dealTask.dealDate)
             @alreadyDeal = true
             break
           end
