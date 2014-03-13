@@ -7,13 +7,10 @@ class TaskControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get stop" do
-    get :stop
-    assert_response :success
-  end
 
   test "should get start" do
-    get :start
+    aa = get :start
+
     assert_nil(nil)
 
     assert_response :success

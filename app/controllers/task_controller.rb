@@ -2,21 +2,21 @@ require 'nokogiri'
 require 'open-uri'
 class TaskController < ApplicationController
 
-  scheduler = Rufus::Scheduler.new
+  @scheduler = Rufus::Scheduler.new
   def stop
-    if (!scheduler.paused?)
-      scheduler.pause
+    if (!@scheduler.paused?)
+      @scheduler.pause
     end
   end
 
   def resume
-    if (scheduler.paused?)
-      scheduler.resume
+    if (@@scheduler.paused?)
+      @scheduler.resume
     end
   end
 
   def start
-    scheduler.every '3h' do
+    @scheduler.every '3h' do
 
       begin
         @alreadyDeal = false
@@ -52,8 +52,8 @@ class TaskController < ApplicationController
   end
 
   def delete
-    if !scheduler.down?
-      scheduler.shutdown
+    if !@scheduler.down?
+      @scheduler.shutdown
     end
   end
 end
