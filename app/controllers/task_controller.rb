@@ -2,33 +2,41 @@ require 'nokogiri'
 require 'open-uri'
 class TaskController < ApplicationController
 
-  @scheduler = Rufus::Scheduler.new
+
+  def initialize
+    @scheduler = Rufus::Scheduler.new
+  end
+
   def stop
     if (!@scheduler.paused?)
       @scheduler.pause
     end
-  end
+    end
+
 
   def resume
-    if (@@scheduler.paused?)
+    if (@scheduler.paused?)
       @scheduler.resume
     end
   end
 
   def start
-    @scheduler.every '3h' do
-
+    #@scheduler.in '3s' do
       begin
         @alreadyDeal = false
         @markets = Array.new
-        @dealTask = DealTask.find({"dealType"=>"name"}).order_by({"dealDate"=>-1}).first()
-        # Get a Nokogiri::HTML::Document for the page we’re interested in...
-        doc = Nokogiri::HTML(open('http://www.vegnet.com.cn/Price/List_p2_白菜.html'))
+        begin
+          @dealTask = DealTask.find({"dealType" => "name"}).order_by({"dealDate" => -1}).first()
+        rescue =>e1
+          p "not dealTask"
+        end
+        # Get a Nokogiri::HTML::Document for the page we’re interested in...Date
+        doc = Nokogiri::HTML(open('http://www.vegnet.com.cn/Price/List_p2_%E7%99%BD%E8%8F%9C.html'))
         # Do funky things with it using Nokogiri::XML::Node methods...
         ####
         # Search for nodes by css
         doc.css('.jxs_list .pri_k p').each do |link|
-          @newdate = Date.strptime(link.css('span')[0].content, '[%d-%m-%Y]')
+          @newdate = DateTime.parse(link.css('span')[0].content)
           @market = Market.new
           @market.currentDate = @newdate
           @market.name = link.css('span')[1].content
@@ -38,22 +46,29 @@ class TaskController < ApplicationController
           @market.avgPrice = link.css('span')[5].content.gsub('￥', '').to_f
           @market.unit = link.css('span')[6].content
           @markets = @markets+[@market]
-          if(@newdate <= @dealTask.dealDate)
+          if(!@dealTask)
+            @dealTask = DealTask.new
+            @dealTask.dealDate = @newdate
+            @dealTask.dealType = 1
+            @dealTask.save
+          else  (@newdate <= @dealTask.dealDate)
             @alreadyDeal = true
             break
           end
           @market.save
         end
       rescue => e
-        logger.debug("syn data error" +e);
+        p e
       end
 
-    end
+    #end
+    #@scheduler.join
+    render :text => "test,kkkkkkkkkkkkkkkkkkkkkk"
   end
 
   def delete
-    if !@scheduler.down?
-      @scheduler.shutdown
-    end
+    #if !@scheduler.down?
+    #  @scheduler.shutdown
+    #end
   end
 end

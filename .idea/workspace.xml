@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e644725-6cd4-44f0-a0a5-d38c33690b08" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__ahms.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__ahms.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ahms.iml" afterPath="$PROJECT_DIR$/.idea/ahms.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mongoid.yml" afterPath="$PROJECT_DIR$/config/mongoid.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/task_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/task_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/task_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/task_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__ahms.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__ahms.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ahms.iws" />
@@ -19,14 +19,14 @@
   </component>
   <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ahms@Run_test__task_controller_test___ahms.coverage" NAME="Run test 'task_controller_test': ahms Coverage Results" MODIFIED="1394722345083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ahms" />
-    <SUITE FILE_PATH="coverage/ahms@apis_helper_test.coverage" NAME="apis_helper_test Coverage Results" MODIFIED="1394375159152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/helpers" MODULE_NAME="ahms" />
-    <SUITE FILE_PATH="coverage/ahms@test__ahms.coverage" NAME="test: ahms Coverage Results" MODIFIED="1394719702891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ahms" />
-    <SUITE FILE_PATH="coverage/ahms@test_should_get_list__ahms.coverage" NAME="test_should_get_list: ahms Coverage Results" MODIFIED="1394722452437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ahms" />
-    <SUITE FILE_PATH="coverage/ahms@test_should_get_start__ahms.coverage" NAME="test_should_get_start: ahms Coverage Results" MODIFIED="1394721906197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ahms" />
-    <SUITE FILE_PATH="coverage/ahms@task_controller.coverage" NAME="task_controller Coverage Results" MODIFIED="1394722405344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="ahms" />
+    <SUITE FILE_PATH="coverage/ahms@Run_test__task_controller_test___ahms.coverage" NAME="Run test 'task_controller_test': ahms Coverage Results" MODIFIED="1395230364557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ahms" />
+    <SUITE FILE_PATH="coverage/ahms@apis_helper_test.coverage" NAME="apis_helper_test Coverage Results" MODIFIED="1395234090014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/helpers" MODULE_NAME="ahms" />
+    <SUITE FILE_PATH="coverage/ahms@test__ahms.coverage" NAME="test: ahms Coverage Results" MODIFIED="1394807476475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ahms" />
+    <SUITE FILE_PATH="coverage/ahms@test_should_get_list__ahms.coverage" NAME="test_should_get_list: ahms Coverage Results" MODIFIED="1394807620700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ahms" />
+    <SUITE FILE_PATH="coverage/ahms@test_should_get_start__ahms.coverage" NAME="test_should_get_start: ahms Coverage Results" MODIFIED="1394807627088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ahms" />
+    <SUITE FILE_PATH="coverage/ahms@task_controller.coverage" NAME="task_controller Coverage Results" MODIFIED="1394807771237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="ahms" />
     <SUITE FILE_PATH="coverage/ahms@Production__ahms.coverage" NAME="Production: ahms Coverage Results" MODIFIED="1392187694011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ahms" />
-    <SUITE FILE_PATH="coverage/ahms@Development__ahms.coverage" NAME="Development: ahms Coverage Results" MODIFIED="1394455360216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ahms" />
+    <SUITE FILE_PATH="coverage/ahms@Development__ahms.coverage" NAME="Development: ahms Coverage Results" MODIFIED="1395238349896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ahms" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -45,37 +45,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="task_controller_test.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/controllers/task_controller_test.rb">
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/weixin/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="23" selection-start="143" selection-end="143" vertical-scroll-proportion="0.24861878" vertical-offset="0" max-vertical-offset="450">
+            <state line="19" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="apis_helper_test.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/helpers/apis_helper_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="92" selection-start="156" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rescue.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/utils.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="164" column="0" selection-start="4078" selection-end="4078" vertical-scroll-proportion="0.0" vertical-offset="2460" max-vertical-offset="3555">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_helper_test.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/helpers/task_helper_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="markets_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/markets_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1200">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/task_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="17" selection-start="1565" selection-end="1565" vertical-scroll-proportion="-3.2923076" vertical-offset="476" max-vertical-offset="975">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="markets_helper_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/helpers/markets_helper_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product1s_helper_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/helpers/product1s_helper_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="48" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
+            <state line="70" column="26" selection-start="2023" selection-end="2023" vertical-scroll-proportion="0.5879121" vertical-offset="836" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
@@ -84,45 +111,7 @@
       <file leaf-file-name="deal_task.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/deal_task.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="82" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="165">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multibyte.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/multibyte.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deal_tasks.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/fixtures/deal_tasks.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="225">
-              <folding>
-                <marker date="1394548243487" expanded="true" signature="133:174" placeholder="two:" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="markets.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/fixtures/markets.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="3" column="17" selection-start="82" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -163,14 +152,14 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/weixin/home_controller.rb" />
         <option value="$APPLICATION_HOME_DIR$/rubystubs21/string.rb" />
-        <option value="$PROJECT_DIR$/test/helpers/apis_helper_test.rb" />
         <option value="$PROJECT_DIR$/app/models/market.rb" />
         <option value="$PROJECT_DIR$/app/models/deal_task.rb" />
         <option value="$PROJECT_DIR$/app/controllers/product1s_controller.rb" />
-        <option value="$PROJECT_DIR$/config/mongoid.yml" />
         <option value="$PROJECT_DIR$/test/fixtures/deal_tasks.yml" />
-        <option value="$PROJECT_DIR$/test/controllers/task_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
+        <option value="$PROJECT_DIR$/test/controllers/task_controller_test.rb" />
+        <option value="$PROJECT_DIR$/config/mongoid.yml" />
+        <option value="$PROJECT_DIR$/test/helpers/apis_helper_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/task_controller.rb" />
       </list>
     </option>
@@ -178,8 +167,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
@@ -213,9 +202,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,79 +210,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ahms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ahms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ahms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ahms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ahms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ahms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ahms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ahms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ahms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ahms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,6 +232,7 @@
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesRuby" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -323,19 +243,15 @@
       <recent name="$PROJECT_DIR$/app/controllers/weixin" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_should_get_list: ahms">
-    <configuration default="false" name="Run test 'task_controller_test': ahms" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+  <component name="RunManager" selected="Rails.Development: ahms">
+    <configuration default="false" name="task_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ahms" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/controllers" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
@@ -344,18 +260,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/task_controller_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyCover" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/controllers/task_controller.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyCover" />
       <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -388,7 +296,9 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -454,14 +364,16 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <RunnerSettings RunnerId="RubyCover" />
       <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyCover" />
       <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="task_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="apis_helper_test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ahms" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/controllers" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/test/helpers" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -474,10 +386,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/controllers/task_controller.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/test/helpers/apis_helper_test.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -621,19 +533,19 @@
       <item index="5" class="java.lang.String" itemvalue="Rake.test: bajiao" />
       <item index="6" class="java.lang.String" itemvalue="Rake.test: ahms" />
       <item index="7" class="java.lang.String" itemvalue="Rake.spec: ahms" />
-      <item index="8" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'task_controller_test': ahms" />
+      <item index="8" class="java.lang.String" itemvalue="Ruby.task_controller" />
       <item index="9" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_start: ahms" />
       <item index="10" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_stop: ahms" />
       <item index="11" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_list: ahms" />
-      <item index="12" class="java.lang.String" itemvalue="Ruby.task_controller" />
+      <item index="12" class="java.lang.String" itemvalue="Ruby.apis_helper_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_list: ahms" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.task_controller" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'task_controller_test': ahms" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.apis_helper_test" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_list: ahms" />
+        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_stop: ahms" />
         <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_start: ahms" />
-        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_get_stop: ahms" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.task_controller" />
       </list>
     </recent_temporary>
   </component>
@@ -715,17 +627,17 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3184569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3273906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25340393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33585477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3241491" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273906" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36953" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32576984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3273906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3241491" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -775,155 +687,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/weixin/application_controller.rb</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/weixin/application_controller.rb</url>
-          <line>10</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/../bajiao/app/controllers/weixin/home_controller.rb</url>
-          <line>2</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/config/initializers/weixin_router.rb</url>
-          <line>35</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/task_controller.rb</url>
-          <line>31</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/test/controllers/task_controller_test.rb</url>
-          <line>13</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/task_controller.rb</url>
-          <line>54</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="38" />
+      <option name="time" value="57" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/routing/mapper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="26700" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/weixin/home/call.xml.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="43" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="0" selection-start="3125" selection-end="3125" vertical-scroll-proportion="0.92248064" vertical-offset="1578" max-vertical-offset="2475" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/nokogiri-1.6.1/lib/nokogiri/xml/node_set.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="0" selection-start="6358" selection-end="6358" vertical-scroll-proportion="0.33229813" vertical-offset="3433" max-vertical-offset="5415" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/nokogiri-1.6.1/lib/nokogiri.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="7" selection-start="2143" selection-end="2143" vertical-scroll-proportion="-0.7403315" vertical-offset="1198" max-vertical-offset="2010" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/weixin_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="335" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/talks_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="341" selection-end="341" vertical-scroll-proportion="0.74585634" vertical-offset="0" max-vertical-offset="825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/helpers/task_helper_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="335" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/weixin/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="268" selection-end="268" vertical-scroll-proportion="0.38860103" vertical-offset="0" max-vertical-offset="386" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/ostruct.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4380" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/logger.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="12" selection-start="6329" selection-end="6335" vertical-scroll-proportion="0.0" vertical-offset="2983" max-vertical-offset="12750" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/rake.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1185" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/date/format.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/helpers/weixin_helper_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/weixin.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="239" selection-end="239" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/api.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.29085872" vertical-offset="0" max-vertical-offset="361" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs21/regexp.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="644" column="11" selection-start="27353" selection-end="27353" vertical-scroll-proportion="0.0" vertical-offset="8689" max-vertical-offset="16605" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs21/string.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1829" column="42" selection-start="75680" selection-end="75680" vertical-scroll-proportion="0.551495" vertical-offset="27269" max-vertical-offset="27570" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/bigdecimal/util.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="3" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.41791046" vertical-offset="595" max-vertical-offset="1995" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/weixin_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/date.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="8" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1005" />
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs21/date.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="438" column="22" selection-start="17259" selection-end="17267" vertical-scroll-proportion="0.0" vertical-offset="6470" max-vertical-offset="20820" />
@@ -964,28 +734,6 @@
         <state line="6" column="30" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0" vertical-offset="670" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/markets_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/helpers/apis_helper_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/rufus-scheduler-3.0.6/lib/rufus/scheduler.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="8" selection-start="3950" selection-end="3955" vertical-scroll-proportion="0.0" vertical-offset="2319" max-vertical-offset="8865" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/markets/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180" />
@@ -994,11 +742,6 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/product1s_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="44" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1185" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/mongoid.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="23" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="780" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
@@ -1013,9 +756,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/helpers/product1s_helper_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="48" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
+        <state line="2" column="48" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/talks.yml">
@@ -1025,23 +766,191 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/markets.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/deal_tasks.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding>
-            <marker date="1394548243487" expanded="true" signature="133:174" placeholder="two:" />
-          </folding>
-        </state>
+        <state line="8" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/helpers/product2s_helper_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="48" selection-start="63" selection-end="71" vertical-scroll-proportion="0.08287293" vertical-offset="0" max-vertical-offset="362" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/testing/assertions/response.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="730" selection-end="730" vertical-scroll-proportion="0.6965944" vertical-offset="0" max-vertical-offset="1410" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/multibyte.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/helpers/markets_helper_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="8" selection-start="3054" selection-end="3054" vertical-scroll-proportion="-1.9401089" vertical-offset="2479" max-vertical-offset="3030" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/minitest-4.7.5/lib/minitest/unit.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="584" column="34" selection-start="14973" selection-end="14976" vertical-scroll-proportion="0.0" vertical-offset="8572" max-vertical-offset="21315" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.20578231" vertical-offset="344" max-vertical-offset="1680" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/minitest/unit.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1272" column="0" selection-start="32886" selection-end="32886" vertical-scroll-proportion="0.33333334" vertical-offset="18959" max-vertical-offset="21420" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.10204082" vertical-offset="0" max-vertical-offset="588" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="25" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="20" selection-start="1361" selection-end="1376" vertical-scroll-proportion="0.71938777" vertical-offset="462" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_controller/test_case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="468" column="0" selection-start="17362" selection-end="17362" vertical-scroll-proportion="0.21052632" vertical-offset="6904" max-vertical-offset="10515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="428" selection-end="428" vertical-scroll-proportion="0.49107143" vertical-offset="0" max-vertical-offset="336" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/callbacks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="413" column="7" selection-start="13242" selection-end="13242" vertical-scroll-proportion="0.28" vertical-offset="6034" max-vertical-offset="8700" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/test_case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="37" selection-start="1435" selection-end="1447" vertical-scroll-proportion="0.26020408" vertical-offset="507" max-vertical-offset="1095" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/task_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.21276596" vertical-offset="0" max-vertical-offset="564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/product2s_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.20408164" vertical-offset="0" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/weixin/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mongoid.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="489" max-vertical-offset="825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/helpers/products_helper_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/rufus-scheduler-3.0.6/lib/rufus/scheduler.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="504" column="24" selection-start="12187" selection-end="12187" vertical-scroll-proportion="0.41483516" vertical-offset="7409" max-vertical-offset="8865" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/rufus-scheduler-3.0.6/lib/rufus/scheduler/jobs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="227" column="0" selection-start="5167" selection-end="5167" vertical-scroll-proportion="0.33241758" vertical-offset="3284" max-vertical-offset="8685" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/utils.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="0" selection-start="4078" selection-end="4078" vertical-scroll-proportion="0.0" vertical-offset="2339" max-vertical-offset="3555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/helpers/task_helper_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/helpers/apis_helper_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="92" selection-start="156" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/date/format.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="362" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/date.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="10" selection-start="103" selection-end="103" vertical-scroll-proportion="0.20718232" vertical-offset="0" max-vertical-offset="1005" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs21/date_time.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="640" column="17" selection-start="29541" selection-end="29541" vertical-scroll-proportion="0.5680581" vertical-offset="9287" max-vertical-offset="9840" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/core_ext/date/conversions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="10" selection-start="169" selection-end="169" vertical-scroll-proportion="0.13297872" vertical-offset="0" max-vertical-offset="1350" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/json/add/date.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="10" selection-start="141" selection-end="145" vertical-scroll-proportion="0.15957446" vertical-offset="0" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/weixin/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/markets_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="1200">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/deal_task.rb">
@@ -1051,47 +960,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/helpers/markets_helper_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/testing/assertions/response.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="730" selection-end="730" vertical-scroll-proportion="0.6965944" vertical-offset="0" max-vertical-offset="1410" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/minitest-4.7.5/lib/minitest/unit.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="292" column="8" selection-start="7407" selection-end="7407" vertical-scroll-proportion="0.33333334" vertical-offset="4268" max-vertical-offset="21315" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/multibyte.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/task_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="17" selection-start="1565" selection-end="1565" vertical-scroll-proportion="-3.2923076" vertical-offset="476" max-vertical-offset="975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/task_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="143" selection-end="143" vertical-scroll-proportion="0.24861878" vertical-offset="0" max-vertical-offset="450">
+        <state line="70" column="26" selection-start="2023" selection-end="2023" vertical-scroll-proportion="0.5879121" vertical-offset="836" max-vertical-offset="1200">
           <folding />
         </state>
       </provider>
