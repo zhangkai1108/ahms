@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'open-uri'
+require 'json'
 class TaskController < ApplicationController
 
 
@@ -20,18 +21,62 @@ class TaskController < ApplicationController
     end
   end
 
+  def generateCommpony
+    rel = ""
+    VProvince.delete_all
+    VCompany.delete_all
+    doc = Nokogiri::HTML(open('http://www.vegnet.com.cn/Price'))
+    doc.css('#selectArea option').each do |link|
+      begin
+      @pro = VProvince.new
+      @pro.name = link.content
+      @pro.id = link["value"]
+      @pro.save
+      rel += link.content
+      rel += link["value"]
+      uri = URI.parse('http://www.vegnet.com.cn//Market/GetMarketByAreaID?areaID='+@pro.id)
+      http = Net::HTTP.new( uri.host, uri.port )
+      request_obj = Net::HTTP::Get.new( uri.request_uri )
+      opsdb_response = http.request( request_obj )
+      if opsdb_response.body
+        retJson = JSON.parse(opsdb_response.body)
+        retJson.each do |com|
+          company = VCompany.new
+          @aa = com["Name"].to_s
+          company.name= @aa
+          company.id= com["MarketID"].to_i
+          company.pid = @pro.id.to_i
+          company.desc= com["Intro"]
+          rel += company.name
+          company.save
+        end
+      end
+
+      rel += '\n'
+      rescue =>e
+          p e
+      end
+    end
+    render :text => rel
+  end
   def start
     #@scheduler.in '3s' do
+    retVlave = ""
+    @coms = VCompany.all
+    @coms.each do |com|
       begin
         @alreadyDeal = false
         @markets = Array.new
         begin
-          @dealTask = DealTask.find({"dealType" => "name"}).order_by({"dealDate" => -1}).first()
+          @dealTask = DealTask.find({"dealType" => com.id}).order_by({"dealDate" => -1}).first()
         rescue =>e1
           p "not dealTask"
         end
         # Get a Nokogiri::HTML::Document for the page we’re interested in...Date
-        doc = Nokogiri::HTML(open('http://www.vegnet.com.cn/Price/List_p2_%E7%99%BD%E8%8F%9C.html'))
+        #doc = Nokogiri::HTML(open('http://www.vegnet.com.cn/Price/List_p2_%E7%99%BD%E8%8F%9C.html'))
+        doc = Nokogiri::HTML(open('http://www.vegnet.com.cn/Price/list_ar310000.html?marketID='+com.id.to_s))
+
+
         # Do funky things with it using Nokogiri::XML::Node methods...
         ####
         # Search for nodes by css
@@ -46,24 +91,26 @@ class TaskController < ApplicationController
           @market.avgPrice = link.css('span')[5].content.gsub('￥', '').to_f
           @market.unit = link.css('span')[6].content
           @markets = @markets+[@market]
-          if(!@dealTask)
+          if(!@dealTask || @dealTask.dealType != com.id)
             @dealTask = DealTask.new
             @dealTask.dealDate = @newdate
-            @dealTask.dealType = 1
+            @dealTask.dealType = com.id.to_s
             @dealTask.save
-          else  (@newdate <= @dealTask.dealDate)
+          elsif (@newdate < @dealTask.dealDate)
             @alreadyDeal = true
             break
           end
           @market.save
+          retVlave += @market.name
         end
       rescue => e
-        p e
+        retVlave += e.to_s
       end
-
+    end
     #end
+
     #@scheduler.join
-    render :text => "test,kkkkkkkkkkkkkkkkkkkkkk"
+    render :text => retVlave
   end
 
   def delete

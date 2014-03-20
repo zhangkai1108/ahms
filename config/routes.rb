@@ -3,6 +3,7 @@ Ahms::Application.routes.draw do
   resources :markets
 
   get "task/list"
+  get "task/generateCommpony"
   get "task/stop"
   get "task/start"
   get "task/delete"
