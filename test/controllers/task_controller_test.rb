@@ -9,10 +9,10 @@ class TaskControllerTest < ActionController::TestCase
 
 
   test "should get start" do
+    Market.delete_all
+    DealTask.delete_all
     aa = get :start
     p aa
-    assert_equal aa,"test","相等"
-
     assert_response :success
   end
 

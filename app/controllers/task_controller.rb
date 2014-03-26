@@ -60,30 +60,36 @@ class TaskController < ApplicationController
     render :text => rel
   end
   def start
-    #@scheduler.in '3s' do
+    @scheduler.every '10s' do
     retVlave = ""
+
     @coms = VCompany.all
     @coms.each do |com|
       begin
+        index = 1
+        ["","_p2"].each do|page|
+        if com.name.index("上海".force_encoding("UTF-8"))
         @alreadyDeal = false
         @markets = Array.new
         begin
-          @dealTask = DealTask.find({"dealType" => com.id}).order_by({"dealDate" => -1}).first()
+          @dealTask = DealTask.where({"dealType"=>com.id}).desc(:dealDate).first()
         rescue =>e1
+          @dealTask = nil
           p "not dealTask"
         end
         # Get a Nokogiri::HTML::Document for the page we’re interested in...Date
         #doc = Nokogiri::HTML(open('http://www.vegnet.com.cn/Price/List_p2_%E7%99%BD%E8%8F%9C.html'))
-        doc = Nokogiri::HTML(open('http://www.vegnet.com.cn/Price/list_ar310000.html?marketID='+com.id.to_s))
+        doc = Nokogiri::HTML(open("http://www.vegnet.com.cn/Price/list_ar310000#{page}.html?marketID="+com.id.to_s))
 
 
         # Do funky things with it using Nokogiri::XML::Node methods...
         ####
         # Search for nodes by css
+
         doc.css('.jxs_list .pri_k p').each do |link|
-          @newdate = DateTime.parse(link.css('span')[0].content)
+          newdate = Date.parse(link.css('span')[0].content)
           @market = Market.new
-          @market.currentDate = @newdate
+          @market.currentDate = newdate
           @market.name = link.css('span')[1].content
           @market.place = link.css('span')[2].css('a')[0].content
           @market.maxPrice= link.css('span')[3].content.gsub('￥', '').to_f
@@ -91,25 +97,35 @@ class TaskController < ApplicationController
           @market.avgPrice = link.css('span')[5].content.gsub('￥', '').to_f
           @market.unit = link.css('span')[6].content
           @markets = @markets+[@market]
-          if(!@dealTask || @dealTask.dealType != com.id)
+          #
+          if index == 1 && @dealTask && @dealTask.dealDate == newdate
+            break
+          elsif(index == 1 && !@dealTask)
             @dealTask = DealTask.new
-            @dealTask.dealDate = @newdate
+            @dealTask.dealDate = newdate
             @dealTask.dealType = com.id.to_s
             @dealTask.save
-          elsif (@newdate < @dealTask.dealDate)
+          end
+          if (newdate < @dealTask.dealDate)
             @alreadyDeal = true
             break
           end
           @market.save
-          retVlave += @market.name
+          index += 1
+          retVlave = retVlave+(@market.name);
+          retVlave = retVlave+","
+        end
+        end
         end
       rescue => e
-        retVlave += e.to_s
+        retVlave = retVlave+ e.to_s
       end
-    end
-    #end
+      p retVlave
+      end
 
-    #@scheduler.join
+    end
+
+    @scheduler.join
     render :text => retVlave
   end
 
