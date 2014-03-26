@@ -5,8 +5,8 @@ development:
 #        username:  zhangkai
 #        password:  abcd.1234
         hosts:
-          #- troup.mongohq.com:10048
-          - 127.0.0.1:27017
+          - troup.mongohq.com:10048
+#          - 192.168.88.137:27017
         options:
           read: primary
           # In the test environment we lower the retries and retry interval to
@@ -16,12 +16,12 @@ development:
 test:
   sessions:
     default:
-      database: tw_test
+      database: tw_development
 #      username:  zhangkai
 #      password:  abcd.1234
       hosts:
-#        - troup.mongohq.com:10048
-          - 127.0.0.1:27017
+        - troup.mongohq.com:10048
+#          - 192.168.88.137:27017
       options:
         read: primary
         # In the test environment we lower the retries and retry interval to
@@ -36,8 +36,8 @@ production:
       # Provides the hosts the default session can connect to. Must be an array
       # of host:port pairs. (required)
       hosts:
-#          - troup.mongohq.com:10048
-            - 127.0.0.1:27017
+          - troup.mongohq.com:10048
+#            - 192.168.88.137:27017
       username:  zhangkai
       password:  abcd.1234
       options:
